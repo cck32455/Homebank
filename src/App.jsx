@@ -50,10 +50,10 @@ function App() {
         <>
           <h2 className="subtitle">Bem Vindo, {email}!</h2>
           <button className="logout-btn" onClick={handleLogout}>
-            Logout
+            Sair
           </button>
           <div className="transactions">
-            <h2>Transactions:</h2>
+            <h2>Transações:</h2>
             <ul>
               {transactions.map((transaction, index) => (
                 <li key={index}>{transaction}</li>
