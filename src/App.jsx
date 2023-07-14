@@ -72,7 +72,7 @@ function App() {
                 value={depositAmount}
                 onChange={(e) => setDepositAmount(parseInt(e.target.value))}
               />
-              <button onClick={handleDeposit}>Deposit</button>
+              <button onClick={handleDeposit}>Depositar</button>
             </div>
             <div className="withdraw">
               <h2>Retirar</h2>
@@ -81,7 +81,7 @@ function App() {
                 value={withdrawAmount}
                 onChange={(e) => setWithdrawAmount(parseInt(e.target.value))}
               />
-              <button onClick={handleWithdraw}>Withdraw</button>
+              <button onClick={handleWithdraw}>Retirar</button>
             </div>
           </div>
         </>
