@@ -26,18 +26,18 @@ function App() {
 
   const handleWithdraw = () => {
     if (withdrawAmount > 0 && balance - withdrawAmount >= 0) {
-      setTransactions([...transactions, `Withdrawal: $${withdrawAmount * -1}`]);
-      setBalance(balance - withdrawAmount);
-      setWithdrawAmount(0);
+       setTransactions([...transactions, `Withdrawal: $${withdrawAmount * -1}`]);
+       setBalance(balance - withdrawAmount);
+       setWithdrawAmount(0);
     }
   };
 
   const handleEmailChange = (e) => {
-    setEmail(e.target.value);
+     setEmail(e.target.value);
   };
 
   const handlePasswordChange = (e) => {
-    setPassword(e.target.value);
+     setPassword(e.target.value);
   };
 
   return (
