@@ -10,6 +10,8 @@ function App() {
   const [password, setPassword] = useState('');
   const [balance, setBalance] = useState(0);
 
+  <img className="logo" src="/HOME.png" alt="HomeBank" />
+
   const handleLogin = () => {
     setIsLoggedIn(true);
   };
